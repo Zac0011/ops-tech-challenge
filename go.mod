@@ -1,3 +1,3 @@
-module github.com/myob-ops/ops-tech-challenge
+module github.com/Zac0011/ops-tech-challenge
 
 go 1.16

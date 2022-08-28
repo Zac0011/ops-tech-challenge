@@ -16,7 +16,6 @@ type handler struct {
 
 // Set header for healthpage and simple text
 func (h handler) health(w http.ResponseWriter, _ *http.Request) {
-	fmt.Fprintf(w, "Health ok")
 	w.WriteHeader(200)
 }
 
